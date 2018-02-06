@@ -2855,12 +2855,12 @@ p.frameBounds = [rect, rect, rect, rect];
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(201,137,90,0.498)").s().p("EhHcAIgQjwgJg2hgIAAvWMCYFAAAIAAI5MiE1AAAQnCAah7D6Qh4DyjlAAIgQAAg");
-	this.shape.setTransform(-6.7,21.7);
+	this.shape.graphics.f("rgba(201,137,90,0.498)").s().p("EhF5AKwQlTgBg2hfIAAz/MCYFAAAIAANiMiE1AAAQkzgEhgEBQhgEAlRAAIgDAAg");
+	this.shape.setTransform(-6.7,6.4);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.matchInstruction_mc, rect = new cjs.Rectangle(-493.4,-32.7,973.4,108.8), [rect]);
+}).prototype = getMCSymbolPrototype(lib.matchInstruction_mc, rect = new cjs.Rectangle(-493.4,-62.4,973.4,137.7), [rect]);
 
 
 (lib.ladder2_mc = function(mode,startPosition,loop) {
@@ -3429,12 +3429,12 @@ p.frameBounds = [rect, new cjs.Rectangle(0,0,303.6,414.1), new cjs.Rectangle(0,0
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.rf(["rgba(255,255,255,0.6)","rgba(229,204,176,0.6)"],[0,0.537],1.9,113.3,0,1.9,113.3,771.4).s().p("Eg6FAyyMAAAhljMB0LAAAMAAABljg");
-	this.shape.setTransform(371.8,325);
+	this.shape.graphics.rf(["rgba(255,255,255,0.6)","rgba(229,204,176,0.6)"],[0,0.537],1.9,120.3,0,1.9,120.3,819.3).s().p("Eg6FA18MAAAhr3MB0LAAAMAAABr3g");
+	this.shape.setTransform(371.8,304.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.blendingAlpha_mc, rect = new cjs.Rectangle(0,0,743.7,650), [rect]);
+}).prototype = getMCSymbolPrototype(lib.blendingAlpha_mc, rect = new cjs.Rectangle(0,-40.3,743.7,690.4), [rect]);
 
 
 (lib.tutorialPause_btn = function(mode,startPosition,loop) {
@@ -4909,6 +4909,13 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 (lib.jar = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// Layer_5
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#AF785A").ss(8,1,1).p("AuYgUQBfn1GoisQAEgCAFAAQBWkRgdmAQgJiKAdhgQCUgeC9AAQCxAACIAWQARACgBAPQgBAQBDACQAzACA8AGQASACAUACQBSAKBABOQBtDIhLD/QgtCag1CPQgXA7gXA5QFqDmgvJFQgVEBhRDTQinG1jbGCQjQCKlGgpQh6gPhogwQgkgQgigSQkunZiqpZQg4jGAJkDgAFe0UQABgFAAgEQB3hzAsBDQAvBQAOA7QARBNg0CYQgGATgGASQgwCGg8B7QhhjxAblsg");
+	this.shape.setTransform(-3.6,-18.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
 	// Layer_3 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
@@ -4930,13 +4937,13 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 	this.timeline.addTween(cjs.Tween.get(this.brown).wait(1));
 
 	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.lf(["#1F7BE1","#1585EB","#1F7BE1","#1585EB","#1F7BE1","#1585EB","#1F7BE1","#1585EB","#1F7BE1","#0099FF","#3366CC","#3366CC"],[0,0.153,0.282,0.396,0.533,0.631,0.733,0.824,0.922,1,1,1],5.7,-158.3,5.6,170.7).s().p("AhpZIQh6gPhogwQgkgQgigSQkunZiqpZQg4jGAJkDQBfn1GoisQAEgCAFAAQBWkRgdmAQgJiKAdhgQCUgeC9AAQCxAACIAWQARACgBAPQgBAQBDACQAzACA8AGIAmAEQBSAKBABOQBtDIhLD/QgtCag1CPQgXA7gXA5QFqDmgvJFQgVEBhRDTQinG1jbGCQigBqjnAAQhEAAhLgJgAFf0dIgBAJIAAAAQgbFsBhDxQA8h7AwiGIAMglQA0iYgRhNQgOg7gvhQQgQgZgaAAQguAAhLBJg");
-	this.shape.setTransform(-3.6,-18.1);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.lf(["#1F7BE1","#1585EB","#1F7BE1","#1585EB","#1F7BE1","#1585EB","#1F7BE1","#1585EB","#1F7BE1","#0099FF","#3366CC","#3366CC"],[0,0.153,0.282,0.396,0.533,0.631,0.733,0.824,0.922,1,1,1],5.7,-158.3,5.6,170.7).s().p("AhpZIQh6gPhogwQgkgQgigSQkunZiqpZQg4jGAJkDQBfn1GoisQAEgCAFAAQBWkRgdmAQgJiKAdhgQCUgeC9AAQCxAACIAWQARACgBAPQgBAQBDACQAzACA8AGIAmAEQBSAKBABOQBtDIhLD/QgtCag1CPQgXA7gXA5QFqDmgvJFQgVEBhRDTQinG1jbGCQigBqjnAAQhEAAhLgJgAFf0dIgBAJIAAAAQgbFsBhDxQA8h7AwiGIAMglQA0iYgRhNQgOg7gvhQQgQgZgaAAQguAAhLBJg");
+	this.shape_1.setTransform(-3.6,-18.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.jar, rect = new cjs.Rectangle(-95.8,-179.7,184.5,323.4), [rect]);
+}).prototype = getMCSymbolPrototype(lib.jar, rect = new cjs.Rectangle(-99.8,-183.7,192.5,331.4), [rect]);
 
 
 (lib.gameBG_mc = function(mode,startPosition,loop) {
@@ -5006,13 +5013,6 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
-	// whiteLine
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("EhNBACbIAAk1MCaDAAAIAAE1g");
-	this.shape.setTransform(0.3,-310.6);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
 	// bg
 	this.instance_5 = new lib.skyBG_mc();
 	this.instance_5.parent = this;
@@ -5020,7 +5020,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.gameBG_mc, rect = new cjs.Rectangle(-492.7,-326.1,986.1,636.9), [rect]);
+}).prototype = getMCSymbolPrototype(lib.gameBG_mc, rect = new cjs.Rectangle(-479.8,-331.7,960.4,642.5), [rect]);
 
 
 (lib.game = function(mode,startPosition,loop) {
@@ -5034,7 +5034,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 
 	this.timeline.addTween(cjs.Tween.get(this.gameBG).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.game, rect = new cjs.Rectangle(-492.8,-326.7,986.1,638.1), [rect]);
+}).prototype = getMCSymbolPrototype(lib.game, rect = new cjs.Rectangle(-479.8,-332.2,960.4,643.6), [rect]);
 
 
 (lib.tutorialHouse_mc = function(mode,startPosition,loop) {
@@ -6192,7 +6192,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.forcomb, rect = new cjs.Rectangle(-600.3,-311.8,1080.8,639.7), [rect]);
+}).prototype = getMCSymbolPrototype(lib.forcomb, rect = new cjs.Rectangle(-600.3,-350.4,1080.8,678.3), [rect]);
 
 
 (lib.tutorialFox_mc = function(mode,startPosition,loop) {
@@ -6981,7 +6981,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 		root.open.addEventListener("click", openFunction);
 		root.close.addEventListener("click", closeFunction);
 		
-		function pauseFunction()
+		function pauseFunction() // השהיית הסרטון והמשכו
 		{
 			if(playing == true)
 			{
@@ -7021,7 +7021,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 			}
 		}
 		
-		function restartFunction()
+		function restartFunction() // איפוס הסרטון
 		{
 			root.tutorialAnimation.anim.tutorialBubble1.bubbleHit.bubbleColorChange.gotoAndStop(-1);
 			root.tutorialAnimation.anim.tutorialBubble2.bubbleHit.bubbleColorChange.gotoAndStop(-1);
@@ -7034,14 +7034,14 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 			
 		}
 		
-		function openFunction()
+		function openFunction() // פתיחת חלון סרטון ההדגמה
 		{
 			root.gotoAndPlay(90);
 			restartFunction();
 			root.tutorialAnimation.anim.gotoAndStop(1);
 		}
 		
-		function closeFunction()
+		function closeFunction() // סגירת חלון סרטון ההדגמה
 		{
 			root.gotoAndPlay(209);
 		}
@@ -7267,10 +7267,10 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 			
 		
 			var jar = new lib.jar(); // יצירת כד המים
-			jar.x = -447;
-			jar.y = -237.85;
-			jar.scaleX = 0.2837;
-			jar.scaleY = 0.2837;
+			jar.x = -436.85;
+			jar.y = -250.9;
+			jar.scaleX = 0.3667;
+			jar.scaleY = 0.3667;
 			jar.name = "jar";
 			stage.getChildByName("game_mc").gameBG.addChild(jar);
 		
@@ -7451,7 +7451,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 		}
 		
 		var globalFox; // יהיה הדמות
-		function globalFoxFunction()
+		function globalFoxFunction() // מזמן את דמות השועל ומכניס את הפניה אליו למשתנה גלובלי
 		{
 			//console.log(levelNum);
 			if(levelNum != 1) // במקרה שזה לא שלב ראשון
@@ -7477,7 +7477,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 		var mouseInterval; 
 		var firstOverBubble = false;
 		
-		function overBubble()
+		function overBubble() // שינוי חץ העכבר בעת עליה על בועה עם תמונה לכף יד
 		{
 			if(firstOverBubble == false)
 			{
@@ -7485,12 +7485,12 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 				mouseInterval = setInterval(changeCursor, 1);
 			}
 		}
-		function outBubble()
+		function outBubble() // החזרת חץ העבר לצורה המקורית בעת יציאה משטח הבועה
 		{
 			firstOverBubble = false;
 			clearInterval(mouseInterval);
 		}
-		function changeCursor()
+		function changeCursor() // שגרת האינטרוואל שגורם לשינוי חץ העבר בפועל
 		{
 			firstOverBubble = false;
 			stage.canvas.style.cursor = "pointer";
@@ -7946,7 +7946,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 			}	
 		}
 		
-		function viAnimation()
+		function viAnimation() // הוספת וי להתאמות
 		{
 			var vi1 = new lib.vi(); // יצירת וי
 			vi1.x = bubble1.x; 
@@ -7961,7 +7961,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 			stage.getChildByName("game_mc").gameBG.addChild(vi2);
 		}
 		
-		function matchAnimationFill()
+		function matchAnimationFill() // זימון צורת המים במעבר הבועות לכד
 		{
 			matchAnimationFinished = false; // מונע התנגשות של אינטרוואלים ליצירת אנימציית הצלחה 
 			
@@ -7978,7 +7978,7 @@ p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rec
 		
 		var jarMask; // יכיל את המים של הכד
 		
-		function matchAnimationFunction() // פונקציית תזוזת הכדור
+		function matchAnimationFunction() // פונקציית תזוזת הבועות לכד
 		{
 			// אנימציית הקטנת הבועות
 			bubble1.scaleX -= scaleMatchOptimizer;
@@ -8289,11 +8289,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/MatchInTheDesert_atlas_.png?1517859622829", id:"MatchInTheDesert_atlas_"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1517859623228", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1517859623228", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/css.js?1517859623228", id:"an.CSS"},
-		{src:"components/ui/src/combobox.js?1517859623228", id:"an.ComboBox"}
+		{src:"images/MatchInTheDesert_atlas_.png?1517910637029", id:"MatchInTheDesert_atlas_"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1517910637468", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1517910637468", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/css.js?1517910637468", id:"an.CSS"},
+		{src:"components/ui/src/combobox.js?1517910637468", id:"an.ComboBox"}
 	],
 	preloads: []
 };

@@ -1,8 +1,22 @@
-﻿body {
+﻿html
+{
+
+}
+
+body {
     /*background-color: #C1EDFF;*/
     /*background-color: white;*/
-    background-color: #ffffff;
+    background-color: #F4C692;
+
+    background-image: url(../images/webBG.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        
     font-family: 'Assistant', sans-serif;
+
 }
 
 
@@ -97,8 +111,8 @@ large{
 
 
 .navbar-default {
-    background-color: #DA986E;
-    border-color: #DA986E !important;
+    background-color: #c4875d;
+    border-color: #c4875d !important;
 }
 
     .navbar-default .navbar-brand {
